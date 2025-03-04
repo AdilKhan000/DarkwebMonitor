@@ -6,13 +6,12 @@ import queue
 import threading
 from flask import Flask, request, send_file, jsonify, Response
 from pymongo import MongoClient
-from werkzeug.utils import secure_filename
+
 from dread_scraper import main as dread_scrape_main
 from scraper_utils import log_queue
 from cryptbb_scraper import main as cryptbb_scrape_main  # Import cryptbb scraper
 from flask_cors import CORS 
-import traceback
-import time
+
 from Features.nmap import run_nmap
 from Features.Directory_Scanner import WebDirectoryScanner
 from Features.detect_server_leaks import detect_server_leaks

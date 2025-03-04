@@ -1,0 +1,8 @@
+flask
+pandas
+pymongo
+requests
+beautifulsoup4
+selenium
+termcolor
+Flask-Cors
