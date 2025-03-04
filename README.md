@@ -165,6 +165,6 @@ Once the installation and configuration steps are completed, you can:
 With your virtual environment activated, run the main Python script (refer to your project-specific instructions) to start data scraping and analysis.
 
 ### Access the Frontend:
-Open your web browser and navigate to the URL provided by the Vite development server (commonly http://localhost:3000). From here, you can initiate scans, monitor progress, and download detailed reports.
+Open your web browser and navigate to the URL provided by the Vite development server. From here, you can initiate scans, monitor progress, and download detailed reports.
 
 Ensure that Kalitorify is running (with `sudo kalitorify --tor`) to guarantee that all traffic is securely routed through the Tor network.
