@@ -18,8 +18,6 @@ Darkweb Monitor is a comprehensive tool designed to help law enforcement and cyb
   - [4. Configure Tor and Privoxy](#4-configure-tor-and-privoxy)
   - [5. Frontend Setup](#5-frontend-setup)
 - [Usage](#usage)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ---
 
@@ -60,7 +58,7 @@ Open your terminal and run:
 ```bash
 git clone https://github.com/AdilKhan000/DarkwebMonitor.git
 cd DarkwebMonitor
-
+```
 # Installation Guide
 
 ## 1. System Dependencies
